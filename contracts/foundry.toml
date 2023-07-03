@@ -1,0 +1,37 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+test = "test"
+cache_path = "cache"
+broadcast = "broadcast"
+
+# Compiler settings
+solc = "0.8.23"
+optimizer = true
+optimizer_runs = 200
+via_ir = true
+
+# Testing settings
+verbosity = 2
+fuzz = { runs = 1000 }
+invariant = { runs = 256, depth = 15 }
+
+# Formatting
+line_length = 100
+tab_width = 4
+bracket_spacing = true
+
+# Gas reporting
+gas_reports = ["*"]
+
+# RPC endpoints for different networks
+[rpc_endpoints]
+mainnet = "https://mainnet.infura.io/v3/${INFURA_API_KEY}"
+sepolia = "https://sepolia.infura.io/v3/${INFURA_API_KEY}"
+localhost = "http://127.0.0.1:8545"
+
+# Etherscan API keys for verification
+[etherscan]
+mainnet = { key = "${ETHERSCAN_API_KEY}" }
+sepolia = { key = "${ETHERSCAN_API_KEY}" }
