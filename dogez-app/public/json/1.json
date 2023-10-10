@@ -1,0 +1,19 @@
+{
+    "name": "Dogez #1",
+    "description": "Dogez #1",
+    "image": "http://127.0.0.1:8080/ipfs/QmRYVuruLf5Mvs7Jjbhdk65ciamsegdEppCLLRkN66w3d5",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Doge"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Base"
+        }
+    ]
+}

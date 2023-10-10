@@ -1,0 +1,31 @@
+{
+    "name": "Dogez #5",
+    "description": "Dogez #5",
+    "image": "http://127.0.0.1:8080/ipfs/QmSKCBst8d1EAD8oNMKJzv45DvMG8ekbBd9qJwkQypCmhn",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "doge"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Tier",
+            "value": "base"
+        },
+        {
+            "trait_type": "Cosmetic",
+            "value": "joint"
+        },
+        {
+            "trait_type": "Cosmetic",
+            "value": "sunglasses"
+        },
+        {
+            "trait_type": "Cosmetic",
+            "value": "mlg_hat"
+        }
+    ]
+}
