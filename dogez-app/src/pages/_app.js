@@ -29,7 +29,7 @@ const customChain = {
     chains.push(customChain);
   }
   
-const projectId = 'REDACTED_WALLETCONNECT_PROJECT_ID';
+const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID;
 
 const { publicClient } = configureChains(chains, [
   w3mProvider({ projectId }),
